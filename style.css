@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Coming+Soon&display=swap');
+
+    hr{
+    width: 70%;
+    margin-top: 11px;
+    margin-left: 20px;
+}
+
+/* Gaya untuk kontainer */
+.container {
+    font-family: "Coming Soon", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 20px;
+    
+}
+
+/* Gaya untuk input angka */
+input[type="number"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+/* Gaya untuk tombol */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    margin-left: 3px;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 2px;
+}
+
+/* Gaya saat tombol dihover */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Gaya untuk penjelasan rumus */
+.formula {
+    font-style: italic;
+    box-shadow: black 3px;
+    font-size: 20px;
+    border-radius: 2.5mm;
+    display: flex;
+    margin-left: 20px;
+}
+
+/* Gaya untuk hasil */
+#resultcelcius { 
+    margin-top: 10px; 
+    border: 0.5px solid black; /* Border dengan ketebalan 1px */
+    width: 225px;
+    height: 40px;
+    padding: 10px; /* Padding untuk memberikan ruang di dalam kotak */
+    box-sizing: border-box; /* Pastikan padding tidak menambah lebar total */
+    margin-left: 20px;
+    font-size: 13px;
+}
+#resultfarenheit { 
+    margin-top: 10px; 
+    border: 0.5px solid black; /* Border dengan ketebalan 1px */
+    width: 225px;
+    height: 40px;
+    padding: 10px; /* Padding untuk memberikan ruang di dalam kotak */
+    box-sizing: border-box; /* Pastikan padding tidak menambah lebar total */
+    margin-left: 20px;
+    font-size: 13px;
+}
+.instruction{
+    margin-left: 20px;
+}
+footer{
+    margin-top: 35px;
+    text-align: center;
+}
